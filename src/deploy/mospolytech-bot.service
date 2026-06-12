@@ -1,0 +1,16 @@
+[Unit]
+Description=Mospolytech Telegram schedule bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/practice/src
+EnvironmentFile=/opt/practice/.env
+Environment=TZ=Europe/Moscow
+ExecStart=/opt/practice/.venv/bin/python main.py
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

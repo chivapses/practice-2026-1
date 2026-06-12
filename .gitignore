@@ -1,0 +1,14 @@
+# Секреты и локальные данные
+.env
+hash_salt.txt
+bot_data.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
