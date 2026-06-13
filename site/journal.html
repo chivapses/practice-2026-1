@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Журнал — Бот расписания</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="layout">
+
+        <aside class="sidebar">
+            <a href="index.html" class="sidebar__brand">Бот расписания<br><span>Московского политеха</span></a>
+            <nav>
+                <ul class="sidebar__nav">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">О проекте</a></li>
+                    <li><a href="team.html">Участники</a></li>
+                    <li><a href="journal.html" class="is-active">Журнал</a></li>
+                    <li><a href="resources.html">Ресурсы</a></li>
+                </ul>
+            </nav>
+            <div class="sidebar__footer">
+                Московский политехнический университет<br>
+                <a href="https://github.com/chivapses/practice-2026-1">Репозиторий на GitHub</a>
+            </div>
+        </aside>
+
+        <main class="content">
+
+            <h1 class="page-title">Журнал</h1>
+            <p class="page-subtitle">Ход работы над практикой по этапам.</p>
+
+            <div class="timeline">
+
+                <div class="tl-item">
+                    <div class="tl-item__date">Этап 1</div>
+                    <h3>Настройка Git и репозитория</h3>
+                    <p>
+                        Установил и настроил Git, создал репозиторий практики на основе шаблона
+                        кафедры. Перенёс код бота в папку <code>src/</code>, настроил
+                        <code>.gitignore</code> для исключения секретов, освоил коммиты и работу с ветками.
+                    </p>
+                </div>
+
+                <div class="tl-item">
+                    <div class="tl-item__date">Этап 2</div>
+                    <h3>Документация в Markdown</h3>
+                    <p>
+                        Изучил синтаксис Markdown и подготовил документацию по практике в папке
+                        <code>docs/</code>: обзорный файл и подробный журнал прогресса по этапам.
+                    </p>
+                </div>
+
+                <div class="tl-item">
+                    <div class="tl-item__date">Этап 3</div>
+                    <h3>Разработка сайта</h3>
+                    <p>
+                        Сверстал статический сайт проекта на чистом HTML и CSS: пять страниц с
+                        описанием бота, светлым оформлением, боковым меню и адаптацией под телефоны.
+                        Этот сайт — результат данного этапа.
+                    </p>
+                </div>
+
+                <div class="tl-item">
+                    <div class="tl-item__date">Этап 4</div>
+                    <h3>Отчёт по практике</h3>
+                    <p>
+                        Подготовлен итоговый отчёт по шаблону кафедры в форматах DOCX и PDF,
+                        размещён в репозитории в папке <code>reports/</code> и загружен в СДО (LMS).
+                    </p>
+                </div>
+
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>

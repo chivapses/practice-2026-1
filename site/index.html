@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бот расписания Московского политеха</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="layout">
+
+        <!-- Боковое меню -->
+        <aside class="sidebar">
+            <a href="index.html" class="sidebar__brand">Бот расписания<br><span>Московского политеха</span></a>
+            <nav>
+                <ul class="sidebar__nav">
+                    <li><a href="index.html" class="is-active">Главная</a></li>
+                    <li><a href="about.html">О проекте</a></li>
+                    <li><a href="team.html">Участники</a></li>
+                    <li><a href="journal.html">Журнал</a></li>
+                    <li><a href="resources.html">Ресурсы</a></li>
+                </ul>
+            </nav>
+            <div class="sidebar__footer">
+                Московский политехнический университет<br>
+                <a href="https://github.com/chivapses/practice-2026-1">Репозиторий на GitHub</a>
+            </div>
+        </aside>
+
+        <!-- Контент -->
+        <main class="content">
+
+            <section class="hero">
+                <h1 class="hero__title">Не пропусти ни одной пары</h1>
+                <p class="hero__lead">
+                    Telegram-бот, который показывает расписание занятий Московского
+                    Политеха и присылает напоминание перед началом каждой пары.
+                </p>
+            </section>
+
+            <h2>О чём проект</h2>
+            <p>
+                Проект создан в рамках дисциплины «Проектная деятельность». Идея простая:
+                студенту неудобно каждый раз заходить на сайт расписания и искать свою группу.
+                Бот решает это — один раз указываешь группу, а дальше получаешь расписание
+                на сегодня, завтра или неделю прямо в Telegram, плюс напоминания перед парами.
+            </p>
+
+            <ol class="features">
+                <li class="feature">
+                    <div class="feature__num">01</div>
+                    <h3>Расписание по группе</h3>
+                    <p>Указываешь группу один раз — бот запоминает её и показывает занятия на день или неделю.</p>
+                </li>
+                <li class="feature">
+                    <div class="feature__num">02</div>
+                    <h3>Напоминания о парах</h3>
+                    <p>Бот присылает уведомление за выбранное время до начала пары (по умолчанию за 15 минут).</p>
+                </li>
+                <li class="feature">
+                    <div class="feature__num">03</div>
+                    <h3>Официальный источник</h3>
+                    <p>Расписание берётся напрямую с сервиса <code>rasp.dmami.ru</code> — то же, что на сайте вуза.</p>
+                </li>
+                <li class="feature">
+                    <div class="feature__num">04</div>
+                    <h3>Московское время</h3>
+                    <p>Напоминания приходят вовремя независимо от часового пояса сервера — расписание всегда по Москве.</p>
+                </li>
+            </ol>
+
+        </main>
+    </div>
+</body>
+</html>
